@@ -1,0 +1,106 @@
+.catalog-container .catalog-category {
+    position: relative;
+    margin-bottom: 50px;
+    max-width: 600px;
+}
+
+.catalog-container .catalog-category .catalog-category-background {
+    position: relative;
+    width: 100%;
+    height: 43px;
+    background: #D7D7D7;
+}
+
+.catalog-container .catalog-category .catalog-category-background-2 {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #ffffff;
+    border: transparent;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.catalog-container .catalog-category .catalog-category-title {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.catalog-container .catalog-category .catalog-category-description {
+    position: absolute;
+    top: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.catalog-container .catalog-category .catalog-category-description a {
+    color: #019DD7;
+    text-decoration: underline;
+}
+
+.catalog-container .catalog-category.catalog-category-1 .catalog-category-background {
+    background: url(../img/category-profnastil.png) bottom center no-repeat #D7D7D7;
+}
+
+.catalog-container .catalog-category.catalog-category-2 .catalog-category-background {
+    background: url(../img/category-metaloprokat.png) bottom center no-repeat #D7D7D7;
+}
+
+.catalog-container .catalog-category.catalog-category-3 .catalog-category-background {
+    background: url(../img/category-dimohodi.png) bottom center no-repeat #D7D7D7;
+}
+
+.catalog-container .catalog-category.catalog-category-4 .catalog-category-background {
+    background: url(../img/category-setki.png) bottom center no-repeat #D7D7D7;
+}
+
+.catalog-container .catalog-category.catalog-category-5 .catalog-category-background {
+    background: url(../img/category-teploizoljacija.png) bottom center no-repeat #D7D7D7;
+}
+
+.catalog-container .catalog-product {
+    border-radius: 0;
+    border: transparent;
+    padding: 15px 15px;
+}
+
+.catalog-container .catalog-product img {
+    width: 100%;
+}
+
+.catalog-container .catalog-product .catalog-product-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+    color: #333333;
+}
+
+.catalog-container .btn.btn-edition {
+    background: #019DD7;
+    color: #ffffff;
+    border-color: #019DD7;
+    margin-bottom: 0px;
+    padding: 7px 15px;
+}
+
+.catalog-container .btn.btn-edition:hover,
+.catalog-container .btn.btn-edition:focus {
+    background: #0061A5;
+    color: #fff;
+    border-color: #0061A5;
+}
+
+.catalog-container .catalog-container-back-link {
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.catalog-container .catalog-container-current {
+    display: inline-block;
+}

@@ -1,0 +1,22 @@
+.notification-page {
+    padding: 200px 0;
+}
+
+.notification-page .notification-page-title {
+    color: #019DD7;
+}
+
+.notification-page .notification-page-description {
+    margin-bottom: 50px;
+}
+
+.notification-page .notification-page-buttons .btn.btn-edition {
+    background: #019DD7;
+    border-color: #019DD7;
+}
+
+.notification-page .notification-page-buttons .btn.btn-edition:hover,
+.notification-page .notification-page-buttons .btn.btn-edition:focus {
+    background: #0061A5;
+    border-color: #0061A5;
+}
